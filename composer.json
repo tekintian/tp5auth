@@ -1,0 +1,20 @@
+{
+    "name": "tekintian/tp5auth",
+    "description": "The ThinkPHP5 tp5auth Package.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "tekintian",
+            "email": "tekintian@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "tp5auth\\auth\\": ""
+        },
+        "files": [
+            "helper.php"
+        ]
+    }
+}
