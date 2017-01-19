@@ -1,6 +1,6 @@
 {
     "name": "tekintian/tp5auth",
-    "description": "The ThinkPHP5 tp5auth Package.",
+    "description": "ThinkPHP5.0 Auth RBAC model tp5auth Package.",
     "license": "Apache-2.0",
     "authors": [
         {
