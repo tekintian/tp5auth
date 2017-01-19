@@ -1,15 +1,13 @@
 # thinkphp5 权限认证 RBAC 加 行为日志
-这个插件主要有一整套RBAC  行为日志 视图 只需要 composer安装即可和你的系统融为一体
+这个插件主要有一整套RBAC  行为日志 视图 只需要 composer安装即可和你的系统融为一体 
+来源：thinkcms-auth
 
 ## 安装
 ~~~
 > composer require tekintian/tp5auth
 ~~~
-## v1.1更新
-* 1.加入了行为日志
-* 2.加入样式文件路由定义,
 
-## v1.1.1新加入方法
+新加入方法
 ~~~
 is_login()                              判断是否登录
 login($uid 用户ID,$nickname 用户昵称)    用户登录
@@ -187,6 +185,8 @@ tp_auth_role_user.sql
 tp_auth_rule.sql
 tp_menu.sql
 ~~~
+
+
 
 ## 完整数据库脚本
 
